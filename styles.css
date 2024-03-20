@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b4b4b8;
+  text-align: center;
+  font: normal 500 26px/1.5 "Didact Gothic", sans-serif;
+}
+
+/* CSS for FHeadings */
+
+h1 {
+  color: #300101;
+  font: normal bold 50px/1 "Noto Sans Gurmukhi", sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
+
+h3 {
+  color: #300101;
+  font-weight: 700;
+  font-size: 35px;
+  font-style: italic;
+}
+
+/* CSS for Main */
+
+.sub-heading,
+.description,
+.movie-releases {
+  margin: 20px 50px;
+}
+
+.sub-heading {
+  font-style: italic;
+  margin: 10px 0 40px 0;
+}
+
+.hero {
+  display: flex;
+}
+
+.hero-img {
+  height: 400px;
+  width: 600px;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+/* CSS for Table */
+
+table {
+  background-color: #9d9da0;
+  border-collapse: collapse;
+  width: 90%;
+  text-align: center;
+  margin: 40px auto;
+}
+
+th {
+  text-decoration: underline;
+  font-size: 26px;
+  font-weight: 500;
+  padding: 10px;
+  background-color: #300101;
+  color: beige;
+}
+
+tr,
+td {
+  border: 3px solid #000;
+  text-align: center;
+  padding: 5px;
+  font-size: 25px;
+  font-family: "Carlito", sans-serif;
+}
+
+table td img {
+  height: 100px;
+  width: 70px;
+  border-radius: 5px;
+}
+
+/* CSS for Footer */
+
+footer {
+  margin: 40px auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+form {
+  width: 40%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f2ecec;
+}
+
+input {
+  background-color: #dddada;
+  outline: none;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #dddada;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #054802;
+  font-size: 26px;
+  color: #efeaea;
+  border: none;
+  margin-top: 15px;
+  width: 40%;
+  padding: 15px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(3, 37, 1);
+  padding: 15px 25px;
+  transition: 0.2s ease-in-out;
+}

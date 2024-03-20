@@ -7,7 +7,7 @@
 body {
   background-color: #b4b4b8;
   text-align: center;
-  font: normal 500 26px/1.5 "Didact Gothic", sans-serif;
+  font: normal 500 20px/1.5 "Didact Gothic", sans-serif;
 }
 
 /* CSS for FHeadings */
@@ -22,7 +22,7 @@ h1 {
 h3 {
   color: #300101;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 26px;
   font-style: italic;
 }
 
@@ -41,6 +41,7 @@ h3 {
 
 .hero {
   display: flex;
+  overflow: hidden;
 }
 
 .hero-img {
@@ -62,7 +63,6 @@ table {
 
 th {
   text-decoration: underline;
-  font-size: 26px;
   font-weight: 500;
   padding: 10px;
   background-color: #300101;
@@ -74,7 +74,6 @@ td {
   border: 3px solid #000;
   text-align: center;
   padding: 5px;
-  font-size: 25px;
   font-family: "Carlito", sans-serif;
 }
 
@@ -111,7 +110,7 @@ input {
 
 input[type="submit"] {
   background-color: #054802;
-  font-size: 26px;
+  font-size: 20px;
   color: #efeaea;
   border: none;
   margin-top: 15px;

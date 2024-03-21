@@ -40,14 +40,18 @@ h3 {
 }
 
 .hero {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+.grid-item {
   overflow: hidden;
 }
 
 .hero-img {
   height: 400px;
-  width: 600px;
-  padding: 3px;
+  width: 100%;
   border-radius: 10px;
 }
 
@@ -106,6 +110,7 @@ input {
   margin-bottom: 15px;
   border: 1px solid #dddada;
   border-radius: 5px;
+  font-size: 20px;
 }
 
 input[type="submit"] {
@@ -124,4 +129,16 @@ input[type="submit"]:hover {
   background-color: rgb(3, 37, 1);
   padding: 15px 25px;
   transition: 0.2s ease-in-out;
+}
+
+footer p.footer-link {
+  font-size: 25px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  font-style: italic;
 }
